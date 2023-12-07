@@ -1,0 +1,44 @@
+Nama  : Herdiansah
+Npm   : G1F022057
+Kelas : A (sistem infomasi)
+
+
+PERULANGAN :
+1.for i in range(1, 100): - Perulangan utama yang mengiterasi nilai i dari 1 hingga 99. Nilai 100 tidak termasuk 
+karena range beroperasi dalam rentang setengah terbuka (open-ended range).
+2.if i % 10 == 0: - Pernyataan kondisional yang memeriksa apakah nilai i adalah kelipatan 10 dengan menggunakan 
+operator modulo (%). Jika i adalah kelipatan 10, maka blok kode dalam kondisi ini akan dieksekusi.
+3.for _ in range(3): - Perulangan dalam (nested loop) yang akan dijalankan jika nilai i adalah kelipatan 10. 
+Perulangan ini akan mencetak "Your Name" sebanyak 3 kali. Penggunaan _ sebagai variabel iterasi menandakan 
+bahwa nilai iterasi tidak akan digunakan dalam blok perulangan.
+4.print("Your Name") - Mencetak "Your Name" sebanyak 3 kali karena berada dalam perulangan dalam.
+5.else: - Bagian dari struktur kondisional yang dijalankan jika nilai i bukan kelipatan 10.
+6.print(i) - Mencetak nilai i jika bukan kelipatan 10. Jadi, untuk setiap nilai yang bukan kelipatan 10, 
+nilai i akan dicetak.
+Dengan demikian, hasil akhirnya adalah mencetak angka dari 1 hingga 99, dan pada setiap kelipatan 10 
+(10, 20, 30, ..., 90), mencetak "Your Name" sebanyak 3 kali.
+
+FORWHILE :
+1.for i in range(1, 11): - Perulangan for yang mengiterasi nilai i dari 1 hingga 10 (inklusif).
+2.if i % 2 == 0: - Pernyataan kondisional yang memeriksa apakah i habis dibagi 2, sehingga genap.
+3.print(f"{i} adalah angka genap.") - Mencetak bahwa i adalah angka genap jika kondisi di atas benar.
+4.else: - Bagian dari struktur if-else. Jika kondisi di atas tidak terpenuhi (artinya i adalah ganjil), 
+maka jalankan blok kode dalam else.
+5.print(f"{i} adalah angka ganjil.") - Mencetak bahwa i adalah angka ganjil jika kondisi di atas tidak terpenuhi.
+1.while counter <= 10: - Perulangan while yang akan terus berjalan selama nilai counter kurang dari atau sama dengan 10.
+2.if counter % 2 == 0: - Pernyataan kondisional yang memeriksa apakah nilai counter habis dibagi 2, sehingga genap.
+3.print(f"{counter} adalah angka genap.") - Mencetak bahwa counter adalah angka genap jika kondisi di atas benar.
+4.else: - Bagian dari struktur if-else. Jika kondisi di atas tidak terpenuhi (artinya counter adalah ganjil), maka 
+jalankan blok kode dalam else.
+5.print(f"{counter} adalah angka ganjil.") - Mencetak bahwa counter adalah angka ganjil jika kondisi di atas tidak terpenuhi.
+Hasil dari kedua bagian kode ini adalah mencetak angka dari 1 hingga 10, menunjukkan apakah angka tersebut genap atau ganjil, 
+baik menggunakan for loop maupun while loop.
+
+ARRAY :
+1.my_array adalah nama variabel yang kita buat untuk menyimpan array atau list.
+2.[10, 20, 30, 40, 50] adalah nilai yang kita masukkan ke dalam variabel tersebut, sehingga my_array menjadi sebuah list dengan 
+lima elemen, yaitu 10, 20, 30, 40, dan 50.
+3.for value in my_array: - Ini adalah perulangan for yang akan mengiterasi setiap nilai dalam list my_array. Pada setiap 
+iterasi, nilai tersebut akan disimpan dalam variabel value.
+4.print(value) - Mencetak nilai yang disimpan dalam variabel value pada setiap iterasi. Dengan ini, setiap nilai 
+dalam list akan dicetak satu per satu.
